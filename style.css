@@ -1,7 +1,28 @@
 
-
 body{
+
     background:linear-gradient(to bottom ,#fffff9, #fff9b7);
+}
+
+
+@media screen and (max-width: 900px) {
+    .main{
+        width : 100%;
+    }
+    .top-content{
+
+      width: 100%;
+    }
+.right{
+
+  width: 70%;
+}
+.left
+{
+  width:30%;
+}
+
+
 }
 .main{
     width : 100%;
@@ -25,10 +46,8 @@ height: 50%;
 
 .top-content
 {
-
  display: flex;
 flex-wrap: wrap;
- min-width: 100vh ;
 }
 
 
