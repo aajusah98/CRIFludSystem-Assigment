@@ -1,0 +1,102 @@
+
+
+body{
+    background:linear-gradient(to bottom ,#fffff9, #fff9b7);
+}
+.main{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header{
+ display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-bottom: 5%;
+}
+
+.logo{
+width: 25%;
+height: 50%;
+}
+
+.top-content
+{
+
+ display: flex;
+flex-wrap: wrap;
+ min-width: 100vh ;
+}
+
+
+.right{
+  flex: 70%;
+  flex-wrap: wrap;
+}
+.left
+{
+  flex: 30%;
+}
+
+.award-image{
+  width: 100%;
+  height: 100%;
+
+}
+.recive-award{
+display: flex;
+flex-wrap: wrap;
+height: auto;
+width: 100%;
+}
+
+.pumps-section
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.pumps-img{
+flex-wrap: wrap;
+  display: flex;
+  height: auto;
+  width: 80%;
+}
+
+
+.footer-section{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+.footer {
+    background: #ec3237;
+    height: 5rem;
+}
+.buttom-ico{
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+  height: auto;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.row{
+  display: flex;
+ flex-wrap: wrap;
+}
+.col{
+  flex: 33.33%;
+    align-items: center;
+    justify-content: center;
+flex-wrap: wrap;
+}
